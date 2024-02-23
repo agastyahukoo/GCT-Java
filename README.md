@@ -7,13 +7,13 @@
         A comprehensive repository of solutions for the 600+ Java programming questions provided by <a href="https://georgecomputertuitions.com">George Computer Tuitions (GCT)</a>.
     </p>
     <a href="https://github.com/YourUsername/GCT-Java-Solutions/stargazers">
-        <img src="https://img.shields.io/github/stars/YourUsername/GCT-Java-Solutions?style=flat-square" alt="GitHub Stars"/>
+        <img src="https://img.shields.io/github/stars/agastyahukoo/GCT-Java?style=flat-square" alt="GitHub Stars"/>
     </a>
     <a href="https://github.com/YourUsername/GCT-Java-Solutions/issues">
-        <img src="https://img.shields.io/github/issues/YourUsername/GCT-Java-Solutions?style=flat-square" alt="GitHub Issues"/>
+        <img src="https://img.shields.io/github/issues/agastyahukoo/GCT-Java?style=flat-square" alt="GitHub Issues"/>
     </a>
     <a href="https://github.com/YourUsername/GCT-Java-Solutions/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/YourUsername/GCT-Java-Solutions?style=flat-square" alt="License"/>
+        <img src="https://img.shields.io/github/license/agastyahukoo/GCT-Java?style=flat-square" alt="License"/>
     </a>
 </div>
 
