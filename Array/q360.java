@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class q359 {
+public class q360 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 10 numbers: ");
@@ -19,14 +19,10 @@ public class q359 {
             if(a[i]==num)
             {
                 exists=true;
-                break;
+                System.out.println("The number "+num+" exists at the "+i+" index in the array.");
             }
         }
-        if(exists)
-        {
-            System.out.println("The number "+num+" exists in the array");
-        }
-        else
+        if(!exists)
         {
             System.out.println("The number "+num+" does not exist in the array");
         }
