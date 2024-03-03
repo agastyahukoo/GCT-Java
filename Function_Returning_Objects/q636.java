@@ -6,17 +6,18 @@ public class q636 {
     int hour;
     int minute;
     int second;
+    static Scanner sc =new Scanner(System.in);
     q636()
     {
         hour =  minute = second = 0;
     }
     void input()
     {
-        Scanner sc =new Scanner(System.in);
         System.out.println("Enter hours, minutes and seconds.");
         hour = sc.nextInt();
         minute = sc.nextInt();
         second = sc.nextInt();
+        sc.close();
     }
     void display()
     {
@@ -50,5 +51,6 @@ public class q636 {
         obj2.input();
         obj2 = obj1.add(obj1, obj2);
         obj2.display();
+        sc.close();
     }
 }
