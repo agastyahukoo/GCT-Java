@@ -5,35 +5,38 @@ import java.util.Scanner;
 public class q467 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string.");
-        String s = sc.next();
-        int lowercase=0;
-        int uppercase=0;
-        int digit=0;
-        int specialchar=0;
+        System.out.println("Enter a String");
+        String s = sc.nextLine();
+        int counta=0; int counte=0; int counti=0; int counto=0; int countu=0;
+        s = s.toLowerCase();
         for(int i=0;i<s.length();i++)
         {
-            if(Character.isUpperCase(s.charAt(i)))
+            if(s.charAt(i)=='a')
             {
-                uppercase++;
+                counta++;
             }
-            else if(Character.isLowerCase(s.charAt(i)))
+            else if(s.charAt(i)=='e')
             {
-                lowercase++;
+                counte++;
             }
-            else if(Character.isDigit(s.charAt(i)))
+            else if(s.charAt(i)=='i')
             {
-                digit++;
+                counti++;
             }
-            else
+            else if(s.charAt(i)=='o')
             {
-                specialchar++;
+                counto++;
+            }
+            else if(s.charAt(i)=='u')
+            {
+                countu++;
             }
         }
-        System.out.println("Number of uppercase characters: "+uppercase);
-        System.out.println("Number of lowercase characters: "+lowercase);
-        System.out.println("Number of numbers: "+digit);
-        System.out.println("Number of special case characters: "+specialchar);
+        System.out.println("A: "+ counta);
+        System.out.println("E: "+ counte);
+        System.out.println("I: "+ counti);
+        System.out.println("O: "+ counto);
+        System.out.println("U: "+ countu);
         sc.close();
     }
 }
