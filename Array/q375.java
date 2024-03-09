@@ -9,7 +9,7 @@ public class q375 {
         System.out.println("Enter 10 names.");
         for(int i=0;i<a.length;i++)
         {
-            a[i]=sc.next();
+            a[i]=sc.next(); 
         }
         for(int i=a.length-1;i>=0;i--)
         {
