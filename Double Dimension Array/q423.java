@@ -1,10 +1,8 @@
-package DD_Array;
-
 import java.util.Scanner;
 
 public class q423 {
     public static void main(String[] args) {
-                Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter 9 numbers.");
         int[][] a = new int[3][3];
         for(int i=0;i<a.length;i++)

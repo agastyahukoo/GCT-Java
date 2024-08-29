@@ -1,5 +1,3 @@
-package DD_Array;
-
 import java.util.Scanner;
 
 public class q422 {
